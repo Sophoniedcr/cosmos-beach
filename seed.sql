@@ -1,0 +1,7 @@
+-- Insertion de quelques activités pour tester
+INSERT INTO activities (nom, description, prix, duree, capacite_max, type, image_url) VALUES 
+('Piscine VIP', 'Accès illimité à la piscine VIP avec transat et service boisson. Idéal pour se détendre au calme.', 15000.00, 'Journée', 50, 'piscine_vip', 'https://images.unsplash.com/photo-1540541338287-41700207dee6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80'),
+('Restaurant Gastronomique', 'Réservation d\'une table pour deux personnes avec menu dégustation local.', 30000.00, '3 Heures', 100, 'restaurant', 'https://images.unsplash.com/photo-1514933651103-005eec06c04b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1074&q=80'),
+('Visite du Mini Zoo', 'Découvrez notre collection d\'animaux exotiques et locaux, parfait pour les enfants.', 5000.00, '2 Heures', 200, 'zoo', 'https://images.unsplash.com/photo-1534567153574-2b12153a87f0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80'),
+('Chambre Deluxe', 'Nuitée dans notre suite Deluxe avec vue sur l\'océan et petit-déjeuner inclus.', 80000.00, 'Nuit', 2, 'chambre', 'https://images.unsplash.com/photo-1560969184-10fe8719e047?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80'),
+('Piscine Ordinaire', 'Accès à la grande piscine publique avec toboggans pour toute la famille.', 5000.00, 'Journée', 300, 'piscine_ordinaire', 'https://images.unsplash.com/photo-1576013551627-c02434447c08?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80');
